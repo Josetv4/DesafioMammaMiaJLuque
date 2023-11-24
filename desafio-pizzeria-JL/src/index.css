@@ -1,0 +1,92 @@
+.custom-navbar {
+  background-color: #17a2b8 !important;
+}
+
+.custom-navbar .nav-link {
+  color: #fff !important; 
+  text-decoration: none !important;
+}
+
+.custom-navbar .nav-link.active {
+  font-weight: bold; 
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+  color: rgb(255, 204, 0) !important;
+}
+
+.logo {  
+  background-image: url('/fondoPizza.jpg');
+  text-align: center;
+  height: 25vh;
+  border: solid 1px rgb(255, 204, 0);
+}
+
+.texLogo {
+  margin-top: 2rem;
+  color: white;
+}
+
+.text-Tittle {
+  text-align: center;
+  margin-top: 10vh;
+  font-weight: bold; 
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+  color: rgb(255, 204, 0);
+}
+
+.text-Tittle1 {
+  text-align: center;
+  font-weight: bold; 
+  color: rgb(255, 204, 0);
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+  font-size: larger;
+}
+
+.text-Tittle2 {
+  text-align: center;
+  font-weight: bold; 
+  color: rgb(255, 204, 0);
+  background-color: rgb(19, 108, 98);
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+  font-size: xx-large;
+}
+
+.cards {
+  margin-top: 3rem;
+}
+
+.container-carrito {
+  background-color: aliceblue;
+  width: 50vw;
+  margin: 0 auto;
+  margin-top: 15vh;
+}
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+ @-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
